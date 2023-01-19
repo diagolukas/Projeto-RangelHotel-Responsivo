@@ -1,0 +1,290 @@
+html {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oxygen";
+}
+
+.clearfix:after,
+row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.button-get-start {
+  display: inline-block;
+  padding: 0.9em 2.5em;
+  background: #58c4c4;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9em 2.5em;
+  background: #58c4c4;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  background: #37a0a0;
+}
+
+.icon-play {
+  height: 4em;
+  display: none;
+}
+.icon-play img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.top-nav {
+  background-color: #612674;
+  text-align: center;
+  font-size: 1.1em;
+}
+.top-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  display: block;
+}
+.top-nav a:hover {
+  background: #7c3792;
+}
+.top-header {
+  text-align: center;
+}
+
+.top-content {
+  padding: 1em;
+  text-align: center;
+  background: #f6f6f6;
+}
+.top-content-title {
+  color: #612674;
+  font-size: 1.375em;
+  margin: 1.375em;
+}
+.top-content-subtitle {
+  color: #a87bb7;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.img-logo {
+  margin: 0.5em;
+}
+
+.middle-content {
+  padding: 2em;
+  background: #f6f6f6;
+  text-align: center;
+}
+
+.middle-content-title {
+  font-size: 1.25em;
+  color: #652e79;
+  text-transform: uppercase;
+}
+
+.middle-content p {
+  line-height: 1.5;
+  color: #222;
+}
+
+.middle-content span[class^="icon"] {
+  font-size: 3em;
+  color: #652e78;
+}
+
+.main-content {
+  padding: 2em;
+}
+
+.main-content {
+  line-height: 1.2;
+}
+
+.main-content-article {
+  margin-bottom: 3.5em;
+}
+
+.main-content-title {
+  font-size: 1.25em;
+  color: #652e79;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+}
+
+.main-content-text {
+  text-align: start;
+}
+
+.footer {
+  background: #25303e;
+  color: #83886f;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.hidden {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  display: block;
+}
+
+.footer-menushare {
+  background: #303d4c;
+  padding: 0.5em;
+}
+
+.footer-menushare li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.footer-menushare a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 46em) {
+  .img-logo {
+    float: left;
+  }
+
+  .icon-play {
+    display: block;
+  }
+
+  .icon-play {
+    height: 4em;
+  }
+
+  .top-nav {
+    background: transparent;
+    float: right;
+    margin-top: 25px;
+  }
+
+  .top-nav ul li a:hover{
+    background-color: #bf69db;
+  }
+
+  .top-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-nav li {
+    display: inline-block;
+  }
+
+  .top-nav a {
+    color: #713a84;
+  }
+
+  .top-nav a:hover {
+    color: #000000;
+    border-radius: 3px;
+  }
+
+  .top-content {
+    background: #521a66;
+    color: white;
+  }
+  .top-content-title,
+  .top-content-subtitle {
+    color: white;
+  }
+
+  .col-3 {
+    width: 30%;
+    margin: 3%;
+    float: left;
+  }
+
+  .col-3 {
+    width: 40%;
+    margin: 1%;
+    float: left;
+  }
+
+  .button {
+    float: right;
+  }
+
+  .middle-content {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 12.85em){
+  .col-3 {
+    width: 30%;
+    margin: 8%;
+    float: left;
+  }
+
+  .col-3 {
+    width: 30%;
+    margin: 8%;
+    float: left;
+  }
+
+}
+
+@media screen and (min-width: 74em) {
+  .top-content {
+    background-color: #521a66;
+    background-image: url(/images/bg_topo_1198x670.jpg);
+    height: 20em;
+    padding-top: 20em;
+    background-size: cover; 
+  }
+
+  .icon-play {
+    height: 20%;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  top.conent {
+    background-image: url(/images/bg_topo_1600x1374.jpg);
+
+    height: auto;
+    background-size: cover; 
+  }
+
+  .col-2 {
+    width: 30%;
+    padding: 5%;
+    float: none;
+  }
+
+  .icon-play {
+    display: block;
+    height: 30%;
+  }
+}
